@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main>
+        <section id="particles-js">
+            <article id="game_container">
+                <header class="game_header">
+                    <div class="game_players">
+                        <h1 class="name">PLAYER</h1>
+                        <h4 id="playerPoints" class="point">0</h4>
+                    </div>
+                    <div class="game_players">
+                        <h1 class="name">COMPU</h1> 
+                        <h4 id="cpuPoints" class="point">0</h4>
+                    </div>
+                </header>
+                <div class="options" ><img id="rock" src="./rock.png" alt=""></div>
+                <div class="options" ><img id="paper" src="./paper.png" alt=""></div>
+                <div class="options" ><img id="scissors" src="./scissors.png" alt=""></div>
+
+                <div id="restart"><h1>Restart</h1></div>
+
+                <div id="modal">
+                    <h1 id="showWiner">player win</h1>
+                    <div id="results">
+                        <div class="answer_container">
+                            <h3>player</h3> <hr>
+                            <h3 id="playerAnswer">scissor</h3>
+                        </div>
+                        <div class="answer_container">
+                            <h3>cpu</h3> <hr>
+                            <h3 id="cpuAnswer">rock</h3>
+                        </div>
+                    </div>
+                    <button type="button">X</button>
+                </div>
+            </article>
+            <input class="data" type="date" name="" id="">
+        </section>
+    </main>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
